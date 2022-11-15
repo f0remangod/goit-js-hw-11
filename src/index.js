@@ -11,6 +11,8 @@ import {
 } from './js/markup';
 import { autoscroll } from './js/autoscroll';
 
+// export { refs, PER_PAGE };
+
 const PER_PAGE = 40;
 
 refs.form.addEventListener('submit', onSearch);
@@ -85,5 +87,3 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionPosition: 'bottom',
   captionDelay: 250,
 });
-
-export { refs, PER_PAGE };

@@ -1,5 +1,5 @@
 import axios from 'axios';
-import PER_PAGE from '..';
+import PER_PAGE from '../index';
 
 function fetchImages(query, page) {
   const BASE_URL = 'https://pixabay.com/api';
