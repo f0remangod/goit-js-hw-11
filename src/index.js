@@ -11,7 +11,7 @@ import {
 } from './js/markup';
 import { autoscroll } from './js/autoscroll';
 
-export { refs, PER_PAGE };
+export { PER_PAGE };
 
 const PER_PAGE = 40;
 
