@@ -1,4 +1,4 @@
-export default function autoscroll() {
+function autoscroll() {
   const { height: cardHeight } = document
     .querySelector('.gallery .container')
     .firstElementChild.getBoundingClientRect();
@@ -8,3 +8,5 @@ export default function autoscroll() {
     behavior: 'smooth',
   });
 }
+
+export { autoscroll };

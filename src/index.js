@@ -1,15 +1,15 @@
-import refs from './js/refs';
+import { refs } from './js/refs';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import fetchImages from './js/fetch';
+import { fetchImages } from './js/fetch';
 import {
   createMarkup,
   clearMarkup,
   hideLoadBtn,
   showLoadBtn,
 } from './js/markup';
-import autoscroll from './js/autoscroll';
+import { autoscroll } from './js/autoscroll';
 
 const PER_PAGE = 40;
 

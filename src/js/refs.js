@@ -1,4 +1,4 @@
-export default refs = {
+const refs = {
   form: document.querySelector('#search-form'),
   submitBtn: document.querySelector('[type="submit"]'),
   input: document.querySelector('[name="searchQuery"]'),
@@ -6,3 +6,5 @@ export default refs = {
   loadMoreBtn: document.querySelector('.load-more'),
   loadMoreBtnSpace: document.querySelector('.load-more-space'),
 };
+
+export { refs };
